@@ -27,6 +27,12 @@ class Test {
         name = str;
     }
 
+    /* このコメントアウトを外すとコンパイルエラーになる
+    Test(int ｘ, String str) {    // コンストラクタ名、引数の数・型・並びが一緒のコンストラクタがすでに存在する為エラーになる
+        id = i;
+        name = str;
+    }*/
+
     void getId() {
         System.out.println("ID:" + id);
     }
